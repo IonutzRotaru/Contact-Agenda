@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ajax2</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="part1">
+			<h1>Add New Contact</h1>
+				<form action="" method="get">
+					<input type="hidden" name="userid" id="userid">
+					<fieldset>
+						<legend>Agenda</legend>
+						<div class="firstinputs">
+									<p>
+										<label for="firstname">First Name</label>
+										<input type="text" name="firstname" id="firstname" style="margin-left: 58px;">
+									</p>
+									<p>
+										<label for="lastname">Last Name</label>
+										<input type="text" name="lastname" id="lastname" style="margin-left: 61px;">
+									</p>
+									<p>
+										<label for="mobile">Mobile Number</label>
+										<input type="tel" name="mobile" id="mobile">
+									</p>
+									<hr id="firsthr">
+						</div>
+						<div class="address">
+							<div class="addres"><p>Address</p></div>
+							<hr>
+							<div class="info">
+								<p>
+									<label for="street">Street</label>
+									<input type="text" name="street" id="street" style="margin-left: 28px;">
+								</p>
+								<p>
+									<label for="number">Number</label>
+									<input type="number" name="number" id="number">
+								</p>
+								<p>
+									<label for="city">City</label>
+									<input type="text" name="city" id="city" style="margin-left: 46px;">
+								</p>
+								<p>
+									<label for="country">Country</label>
+									<input type="text" name="country" id="country">
+								</p>
+							</div>
+						</div>
+					    <button id="send-user">Send</button>
+						<button id="update-user">Update</button>
+					</fieldset> 
+			   </form>
+		
+		
+		</section>
+
+		<section class="part2" id='user-list'>
+			<h1 class="twoh1">Contact List<h1>
+			
+		</section>
+
+		<script src="app.js"></script>
+	</body>
+</html>
